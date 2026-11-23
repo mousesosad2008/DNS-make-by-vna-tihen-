@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Văn Thiện</string>
+    <key>PayloadDescription</key>
+    <string>Cấu hình DNS-over-HTTPS (DoH) cá nhân qua NextDNS để chặn quảng cáo và theo dõi.</string>
+    <key>PayloadIdentifier</key>
+    <string>io.nextdns.profile.2aec35f2-ebcc-4941-8ddb-f18d3ee45080</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>2aec35f2-ebcc-4941-8ddb-f18d3ee45080</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.788aeffe-eb1b-4572-9d40-6dd4f6fd84d6</string>
+            <key>PayloadUUID</key>
+            <string>788aeffe-eb1b-4572-9d40-6dd4f6fd84d6</string>
+            <key>PayloadDisplayName</key>
+            <string>Văn Thiện</string>
+            <key>PayloadDescription</key>
+            <string>DNS-over-HTTPS sử dụng NextDNS cá nhân</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/3e1e42</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
